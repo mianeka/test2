@@ -28,4 +28,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_MIANEKA}}/clockbox:latest
+          tags: ${{ secrets.mianeka}}/clockbox:latest
